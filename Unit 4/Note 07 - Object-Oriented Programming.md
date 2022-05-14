@@ -92,7 +92,7 @@ There are two cases:
 ### Implementing an Interface
 An interface is typically a category of classes. For example, `List` is an interface and the `ArrayList` class (among other types of lists `implements` it. Objects cannot be created from an interface, so there is no such thing as a plain `List` object.
 
-An Interface contains methods with empty bodies, and no fields. When a subclass `implements` an interface, it must include the definitions of all the methods from the interface. You can use the keyword `@Override` to document this. Both method overloading (from the previous lesson) and method overriding are types of **polymorphism**: methods existing in many forms.
+An Interface contains methods with empty bodies, and no fields. When a subclass `implements` an interface, it must include the definitions of all the methods from the interface. You can use the keyword `@Override` to document this. Both method overloading and method overriding are types of **polymorphism**: methods existing in many forms.
 
 Here is an example of a custom class that implements a custom interface. 
 
