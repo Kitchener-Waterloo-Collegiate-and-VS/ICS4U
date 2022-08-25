@@ -83,6 +83,7 @@ In different programming languages, there are different rules for naming. Here a
 * Variable names and method names should use **camel case**.
 * Constant names should use **screaming snake case**. This is snake case with all letters capitalized. (Think of it as screaming or yelling.)
 * Classes should use **Pascal case**.
+* Cannot be keywords or reserved words. For complete list see : https://docs.oracle.com/javase/specs/jls/se14/html/jls-3.html#jls-3.9
 
 In general, we should use descriptive names for variables to help create code that is self-explanatory.
 
