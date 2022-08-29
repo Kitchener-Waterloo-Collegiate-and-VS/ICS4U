@@ -134,7 +134,16 @@ System.out.println("\\"); // Prints a backslash
 
 A **type conversion** occurs when a value is changed into a value of a different but compatible type. There are two kinds of type conversion: explicit and implicit.
 
-We can use **explicit conversion** (a.k.a. **casting**) by treating a variable of one data type as if it belongs to a different, yet similar, data type. We do this by enclosing the new type in parentheses and placing the name of the variable after the parentheses.
+We can use **explicit conversion** (a.k.a. **casting**) by treating a variable of one data type as if it belongs to a different, yet similar, data type. We do this by enclosing the new type in parentheses and placing the name of the variable after the parentheses. For example:
+```java
+System.out.println(22 / 7); // Prints 3
+System.out.println((double) 22 / 7); //Prints 3.142857142857143
+```
+However notice what happens when you use doubles instead integers. 
+```java
+System.out.println(22.0 / 7); // Prints 3.142857142857143
+System.out.println(22 / 7.0); //Prints 3.142857142857143
+```
 
 These are all the examples of casting that can be done in Java:
 
