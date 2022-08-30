@@ -3,7 +3,7 @@
 ### Review
 The following content was in *Note – Introduction to Java*.
 
-> You would have learned about functions in your Grade 11 computer science course. Functions in Java are called methods. A method is a function contained in a class. Since every function in Java is contained in a class, every function in Java is a method.    
+> You would have learned about functions in your Grade 11 mathematics course. Functions in Java are called methods. A method is a function contained in a class. Since every function in Java is contained in a class, every function in Java is a method.    
 >
 > When defining a method, we would write the following, in order.    
 > 1. `public`, `private`, or `protected` (or leave it blank for package-private)    
@@ -16,7 +16,7 @@ The following content was in *Note – Introduction to Java*.
 > 8. a right curly brace `}`    
 > At least one class in a package should contain a `main()` method. The content of a `main()` method is run when we run our program. In Java, the `main()` method must be `public`, `static`, and return a `void` value. The `main()` method has the parameter `String[] args` (we'll get to what this means later).      
 
-Let's review functions in a bit more detail. Many of you have already taken, or are currently taking, the Grade 11 math course *Functions* (MCR3U) or *Functions and Applications* (MCF3M).
+Let's review functions in a bit more detail. 
 
 In math, a relation is a relationship involving one or more variables. A function is a relation in which each independent variable value has only one corresponding dependent variable value.
 
