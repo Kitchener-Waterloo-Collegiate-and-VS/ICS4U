@@ -39,7 +39,7 @@ N.B.: Always assume that strings are case-sensitive when using any programming l
 | `startsWith()` | `"monkey".startsWith("mo"); // true` | Checks whether `"monkey"` begins with `"mo"`. |
 | `endWith()` | `"monkey".endsWith("oy"); // false` | Checks whether `"monkey"` ends with `"oy"`. |
 | `contains()` | `"monkey".contains("onk"); // true` | Checks whether `"monkey"` contains `"onk"`. |
-| `compareTo()` |  `"  monkey    ".compareTo("mom"); // "1"` | Compares `"monkey"` and `"mom"` character by character. If they are equal, it returns 0. If the first string is alphabetically ordered before the second string (which is the argument, `"mom"` in this case, of compareTo), it returns a negative number. And if the first string is alphabetically ordered after the second string, it returns a positive number. (The actual number that it returns does not matter, but it is the distance in the first letter that is different, e.g. n is 1 letters away from m.)|
+| `compareTo()` |  `"  monkey    ".compareTo("mom"); // 1` | Compares `"monkey"` and `"mom"` character by character. If they are equal, it returns 0. If the first string is alphabetically ordered before the second string (which is the argument, `"mom"` in this case, of compareTo), it returns a negative number. And if the first string is alphabetically ordered after the second string, it returns a positive number. (The actual number that it returns does not matter, but it is the distance in the first letter that is different, e.g. n is 1 letters away from m.)|
 
 
 There are also several methods in the `String` class that are useful for creating strings based on other strings.
