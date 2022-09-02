@@ -53,6 +53,8 @@ There are also several methods in the `String` class that are useful for creatin
 | `replace()`      | `"abcabc".replace("a", "ef"); //"efbcefbc"`                  | Creates a new string with all occurrences of `"a"` replaced with `"ef"`.                |
 | `replaceFirst()` | `"abcabc".replaceFirst("a", "ef"); //"efbcabc"`              |  Creates a new string with the first occurrence of `"a"` replaced with `"ef"`.           |
 
+There are many more methods in the `String` class that can be found online in the Java documentation for the [String Class](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html).
+
 It is sometimes useful to convert characters to integers (their ASCII value) to check whether they are a certain type of character (e.g. lower case letter, punctuation mark, whitespace, etc.).
 
 To cast a character to an integer, place `(int)` in front of it. 
