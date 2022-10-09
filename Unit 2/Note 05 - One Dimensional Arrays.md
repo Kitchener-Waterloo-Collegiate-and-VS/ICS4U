@@ -74,6 +74,11 @@ For example, the following individual lines of code all accomplish the same thin
 `String arrayName[] = new String[10];`    
 `String arrayName [] = new String[10];`
 
+Please note that when you initilize an array without providing any valiues the array elements are initialized to the following: 
+* 0 for elements of type `int`
+* 0.0 for elements of type `0.0`
+* false for elements of type `boolean`
+* null for elements of type `String`
 
 ### main(String[] args)
 
