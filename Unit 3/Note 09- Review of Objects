@@ -1,4 +1,4 @@
-## Note – Objects
+## Note – Review of Objects
 
 An **object** is an instance (i.e. a concrete occurrence) of a class. For example, if you have the string `"Hello World!"` somewhere in your program, it would be a `String` object. 
 
