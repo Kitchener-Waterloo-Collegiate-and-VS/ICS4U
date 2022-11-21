@@ -104,7 +104,7 @@ If the leftIndex is equal to the rightIndex:
     Move the pivot to the leftIndex/rightIndex
 ```
 
-After one iteration of Quick Sort, all the elements to the right of the pivot are greater than it, and all the elements to the right of it are less than it.
+After one iteration of Quick Sort, all the elements to the right of the pivot are greater than it, and all the elements to the left of it are less than it.
 
 This process is repeated on the two smaller arrays until the entire array is sorted.
 
